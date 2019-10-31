@@ -1,14 +1,15 @@
 # weather-apps
 A weather web interface app and a web API bundle
 
-# About 
+## About 
 Both applications have been written from scratch in vanilla JavaScript, PHP, HTML and CSS, without any frameworks. Weather Interface is a front-end app for displaying temperatures taken via API calls from weather_api application.
 
 Note that both applications work without the need to connect to a database as the records are being saved and update directly onto the temperature_records.csv file. 
 
 For best performance, please ensure that your server document root is pointing to the weather-apps folder. 
 
-# Weather API (Application A): API CALLS
+## Weather API (Application A) 
+### API CALLS
 List of possible API calls:
 (date format: YYYY-MM-DD)
 
@@ -26,13 +27,13 @@ weather_api.php?controller=readTemp&action=create&measureDate=2019-04-02&tempera
 
 *if a record exists, an update form pops up
 
-# Weather API (Application A): Import CSV
+### Import CSV
 *To import a csv file go to weather_api/import.php, select a csv file and a number of rows you would like to upload (from top to bottom)
 
-# Weather API (Application A): Update Record
+### Update Record
 *To update an existing record run a &action=createCurrent or &action=createCurrent action for a date which exists already. Once that's done, an update form will popup. 
 
-# Weather Interface (Application B)
+## Weather Interface (Application B)
 Weather Interface is a front-end app for displaying temperatures taken via API calls from weather_api application.
 
 * A web interface for displaying daily temperature values for the last seven days 
