@@ -6,7 +6,7 @@ Both applications have been written from scratch, without any frameworks in vani
 
 Note that both applications work without the need to connect to a database as the records are being saved and update directly onto the temperature_records.csv file. 
 
-# Weather API
+# Weather API (Application A)
 List of possible API calls:
 (date format: YYYY-MM-DD)
 
@@ -25,3 +25,8 @@ weather_api.php?controller=readTemp&action=create&measureDate=2019-04-02&tempera
 *if a record exists, an update form pops up
 
 *To import a csv file go to weather_api/import.php, select a csv file and a number of rows you would like to upload (from top to bottom)
+
+# Weather Interface (Application B)
+
+* A web interface for displaying daily temperature values for the last seven days 
+* Updating temperature value for any date which has a record on the Weather API system
